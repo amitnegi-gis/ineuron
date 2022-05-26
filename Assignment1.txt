@@ -1,0 +1,50 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello' 	 values(String)
+-87.8 	     values(Float)
+- 	 Expression( Mathematical operator) 
+/ 	 Expression( Mathematical operator)
++	 Expression( Mathematical operator)
+6 	 values( Integer)
+
+2. What is the difference between string and variable?
+Ans. String  - String is group of character.its is immutable . example name = "Amit negi "
+     Variable -  A variable is label that we can assign value to it. for example num = 12 here num is the variable we have assigned 12 to num  
+
+3. Describe three different data types.
+Ans:- (i) Integer :- Integer datatype consist only a integer value which can be both positive integer (i.e 20,30,15) and negative integer           (ex - 20,-53 and whole number.
+(ii)  Float :-  Floating datatype represent the floating point number. which can be real values ex- 30.26,98.26,20.65
+(iii) String :- String datatype represent the collection of alphabets or character put in the single and double and triple quote.
+ex:- 'ineron',"fullstackdatascience",'''hello this is my first assignment'''
+
+4. What is an expression made up of? What do all expressions do?
+Ans.  expression is made up of of variable,values,operator. which are constructed according to the syntax of the language, that evaluates to a single value.
+
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans .- statements represent an action or command e.g print statements, assignment statements. Expression is a combination of variables, operations and values that yields a result value.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans:- bacon value is 22 and after adding bacon +1 it will add and getting output 23
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans:-  'spam' + 'spamspam' ---> 'spamspamspam'
+        'spam'*3 ---> spamspamspam
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans:- because varaible name cannot be start with number.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans:- integer --> int()
+      floating-point number --> float()
+      String --> str()
+
+10. Why does this expression cause an error? How can you fix it?
+
+'I have eaten ' + 99 + ' burritos.'
+Ans.: Error: generally we cannot concatanation integer or string value. so we have to use casting function in integer value to string value.
+      Correct : - 'I have eaten ' + str(99) + ' burritos.'
