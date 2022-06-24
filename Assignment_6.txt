@@ -1,0 +1,52 @@
+1. What are escape characters, and how do you use them?
+ANS-->  you to include special characters in strings. To do this, simply add a backslash (\) before the character you want to escape.
+
+2. What do the escape characters n and t stand for?
+ANS--> \n :- stands for New Line 
+        \t :- stands for Tab
+
+3. What is the way to include backslash characters in a string?
+ANS--> Use the syntax "\\" within the string literal to represent a single backslash.
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+ANS--> he single quote in Howl's is fine because you've used double quotes to mark the beginning and end of the string.
+
+5. How do you write a string of newlines if you don't want to use the n character?
+ANS--> print("Hello World ", end="")
+
+6. 6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3
+
+ANS--> 'Hello, world!'[1] ---> 'e'
+'Hello, world!'[0:5] ---> 'Hello'
+'Hello, world!'[:5] ---> 'Hello'
+'Hello, world!'[3] ---> 'l'
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+
+ANS--> 'Hello'.upper()  --->  'hello'
+'Hello'.upper().isupper() ---> True
+'Hello'.upper().lower() ---> 'hello'
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+
+ANS--> Remember, remember, the fifth of July.'.split() ---> ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+        '-'.join('There can only one.'.split()) --->  'There-can-only-one.'
+
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+ANS--> string.ljust(length, character)
+       string.rjust(length, character)
+       string.center(length, character)
+
+10. What is the best way to remove whitespace characters from the start or end?
+
+ANS--> You can call the trim() method on your string to remove whitespace from the beginning and end of it.
